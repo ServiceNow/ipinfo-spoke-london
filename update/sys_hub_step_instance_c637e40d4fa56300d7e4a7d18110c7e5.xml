@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-01 13:35:36</sys_created_on>
         <sys_id>c637e40d4fa56300d7e4a7d18110c7e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Call IPInfo REST API</sys_name>
         <sys_package display_value="IPInfo Spoke" source="x_265424_ipinfo_sp">07c5a04d4f656300d7e4a7d18110c7ee</sys_package>
         <sys_policy/>
         <sys_scope display_value="IPInfo Spoke">07c5a04d4f656300d7e4a7d18110c7ee</sys_scope>
         <sys_update_name>sys_hub_step_instance_c637e40d4fa56300d7e4a7d18110c7e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-01 13:41:35</sys_updated_on>
+        <sys_updated_on>2018-11-01 14:19:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c637e40d4fa56300d7e4a7d18110c7e5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -61,11 +61,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-01 13:35:36</sys_created_on>
         <sys_id>4e37e40d4fa56300d7e4a7d18110c7f8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-01 14:19:43</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c637e40d4fa56300d7e4a7d18110c7e5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-01 13:54:31</sys_created_on>
+        <sys_id>878b24cd4fa56300d7e4a7d18110c7f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-01 13:35:36</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+        <sys_updated_on>2018-11-01 13:54:31</sys_updated_on>
+        <value>bbba6c8d4fa56300d7e4a7d18110c71c</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -141,6 +155,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-01 13:35:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>c637e40d4fa56300d7e4a7d18110c7e5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-01 13:54:31</sys_created_on>
+        <sys_id>c38b24cd4fa56300d7e4a7d18110c7f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-01 13:54:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
